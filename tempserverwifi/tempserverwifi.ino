@@ -78,11 +78,11 @@ void loop()
   umidade = dht.readHumidity(); //Realiza a leitura da umidade
   delay(1000);
   lcd.clear();
-  lcd.setCursor(0,0);//cursor linha 0
+  lcd.setCursor(1,0);//cursor linha 0
   lcd.print("Temp:"); 
-  lcd.setCursor(5,0);//cursor linha 0
+  lcd.setCursor(6,0);//cursor linha 0
   lcd.print(temperatura); 
-  lcd.setCursor(11,0);//cursor linha 0
+  lcd.setCursor(12,0);//cursor linha 0
   lcd.print("C");
   lcd.setCursor(1,1);//cursor 0 linha 1
   lcd.print(WiFi.localIP());
